@@ -42,5 +42,5 @@ packaged by Fontsource. Logo SVGs use outlined shapes and need no fonts.
 
 ## Not included yet
 
-- No contact link, form or analytics.
+- No form or analytics. The only outbound link is the X account, @doesitpencil.
 - The ledger example on the page is illustrative, not a real deal.
