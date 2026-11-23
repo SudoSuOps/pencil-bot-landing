@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="text-scale" content="scale">
+  <title>PencilBot | Does It Pencil?</title>
+  <meta name="description" content="PencilBot is a neutral validator. It checks what a deal states against the evidence and records each item as verified, not verified or unknown.">
+  <link rel="canonical" href="https://pencilbot.ai/">
+  <meta name="theme-color" content="#17181A">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pencilbot.ai/">
+  <meta property="og:title" content="PencilBot | Does It Pencil?">
+  <meta property="og:description" content="A neutral validator. Stated vs. verified. Anything in between is recorded as unknown.">
+  <meta property="og:image" content="https://pencilbot.ai/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/caveat-brush-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="topbar">
+        <a class="brand" href="/" aria-label="PencilBot home">
+          <img src="/assets/img/pencilbot-lockup-on-dark.svg" alt="PencilBot. Does It Pencil?" width="250" height="72">
+        </a>
+        <p class="badge">Testnet</p>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <h1><span class="question">Does It Pencil?</span></h1>
+          <p class="lede">PencilBot is a neutral validator. It checks what a deal states against the evidence, and records each item as verified, not verified or unknown.</p>
+          <ul class="states" aria-label="The four labels PencilBot uses">
+            <li class="s-stated">Stated</li>
+            <li class="s-verified">Verified</li>
+            <li class="s-not">Not verified</li>
+            <li class="s-unknown">Unknown</li>
+          </ul>
+        </div>
+        <img class="hero-mark" src="/assets/img/pencilbot-mark-round-on-dark.svg" alt="" width="320" height="320">
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap section" aria-labelledby="what">
+      <p class="eyebrow">What Pencil is</p>
+      <h2 id="what">The pencil draws the line.</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Black and white</h3>
+          <p>A fact is verified or it is not. Anything in between is recorded as unknown, never rounded up.</p>
+        </article>
+        <article class="card">
+          <h3>No side</h3>
+          <p>Pencil does not prospect, sell, negotiate or set terms. It has no stake in the answer.</p>
+        </article>
+        <article class="card">
+          <h3>The ledger is the record</h3>
+          <p>Every finding is written down with its evidence, so the work can be defended later.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section" aria-labelledby="finding">
+      <p class="eyebrow">What a finding looks like</p>
+      <h2 id="finding">Finding first. Then the evidence.</h2>
+
+      <div class="ledger">
+        <div class="ledger-head">
+          <p class="ledger-label">Ledger · illustrative example, not a real deal</p>
+          <p class="ledger-title">Does the rent roll pencil?</p>
+          <p class="ledger-finding"><span>Finding</span> Not verified. Stated 24 units leased; the leases supplied cover 21.</p>
+        </div>
+        <table>
+          <thead>
+            <tr><th scope="col">Item</th><th scope="col">Stated</th><th scope="col">Evidence</th><th scope="col">State</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Units leased</th>
+              <td data-label="Stated">24</td>
+              <td data-label="Evidence">Leases supplied cover 21 units.</td>
+              <td data-label="State"><span class="chip s-not">Not verified</span></td>
+            </tr>
+            <tr>
+              <th scope="row">Lease term</th>
+              <td data-label="Stated">12 months</td>
+              <td data-label="Evidence">Matches all 21 leases supplied.</td>
+              <td data-label="State"><span class="chip s-verified">Verified</span></td>
+            </tr>
+            <tr>
+              <th scope="row">Lender timeline</th>
+              <td data-label="Stated">Close in 30 days</td>
+              <td data-label="Evidence">No lender document supplied.</td>
+              <td data-label="State"><span class="chip s-unknown">Unknown</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="ledger-next"><span>Next action</span> Supply the three missing leases and the lender's written timeline.</p>
+      </div>
+    </section>
+
+    <section class="wrap section split" aria-labelledby="not">
+      <div>
+        <p class="eyebrow">What Pencil does not do</p>
+        <h2 id="not">The people involved decide.</h2>
+      </div>
+      <ul class="nots">
+        <li>It does not prospect, sell or negotiate.</li>
+        <li>It does not set a value, a price or terms.</li>
+        <li>It does not represent the buyer, the seller or a broker.</li>
+        <li>It does not make the decision. It shows what holds.</li>
+      </ul>
+    </section>
+
+    <section class="status" aria-labelledby="status">
+      <div class="wrap">
+        <p class="eyebrow on-dark">Status</p>
+        <h2 id="status">Phase 1: testnet.</h2>
+        <p>PencilBot is being tested and its method written down before it is offered as a service. It started in commercial real estate, where a deal “pencils” when the numbers hold up on paper.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <img src="/assets/img/pencilbot-wordmark-on-light.svg" alt="PencilBot. Does It Pencil?" width="190" height="65">
+    <p>© 2026 PencilBot · pencilbot.ai</p>
+  </footer>
+</body>
+</html>
